@@ -50,3 +50,20 @@ class Point {
 
 
 }
+
+
+class Canvas{
+	List<Point> lista;
+
+	void dodadiTocka(Point) {
+		lista.add(Point);
+	}
+	int srednaXTocka() {
+		br = 0;
+		for(int i=0;i<lista.size(),i++) {
+			br += lista[i].getX();
+		}
+		return br / lista.size()
+	}
+
+}
